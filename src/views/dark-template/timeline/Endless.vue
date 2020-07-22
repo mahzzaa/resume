@@ -1,7 +1,7 @@
 <template>
-  <v-card>
-
-  </v-card>
+  <div>
+    <a href="https://github.com/mahzzaa/ehsunm" class="text-sm-center mb-4 mt-3">design by mahsa</a>
+  </div>
 </template>
 
 <script>

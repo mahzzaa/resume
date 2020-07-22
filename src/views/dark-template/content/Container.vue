@@ -69,7 +69,6 @@ laboratory [in Azad Islamic university in Iran]) for a year.
         title="Skills"
       >
         <template slot="actions">
-          (% are relative not absolute)
         </template>
         <v-layout wrap>
           <template
@@ -182,7 +181,7 @@ export default {
         value: 60,
       },
       {
-        title: 'linux administration',
+        title: 'Linux Administration',
         icon : 'mdi-linux',
         value: 80,
       },
@@ -203,28 +202,28 @@ export default {
       },    
       { divider: true },
         {
-        title: 'programming',
+        title: 'Programming',
         icon : 'mdi-language-csharp',
         value: 35,
       },
       {
-        title: 'C programming',
+        title: 'C Programming',
         icon : 'mdi-language-C',
         value: 60,
       },
       {
-        title: 'programming',
+        title: 'Programming',
         icon : 'mdi-language-cpp',
         value: 80,
       },
       { divider: true },
       {
-        title: 'Image processing',
+        title: 'Image Processing',
         icon : 'mdi-account-group',
         value: 60,
       },
       {
-        title: 'Avr microcontroller programming',
+        title: 'Avr Microcontroller Programming',
         icon : 'mdi-chip',
         value: 80,
       },
