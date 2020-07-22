@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <a href="https://github.com/mahzzaa/ehsunm" class="text-sm-center mb-4 mt-3">design by mahsa</a>
-  </div>
+   <v-card-actions class="justify-center">
+  <a href="https://github.com/mahzzaa/ehsunm"  class="link">Design by mahsa</a>
+</v-card-actions>
 </template>
 
 <script>
@@ -22,5 +22,10 @@ export default {
 </script>
 
 <style scoped>
-
+.link{
+  text-align: center;
+  text-decoration: none;
+  color: aliceblue;
+  font-family: 'Red Rose', cursive;
+}
 </style>
