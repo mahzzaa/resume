@@ -203,17 +203,17 @@ export default {
       },    
       { divider: true },
         {
-        title: 'C#',
+        title: 'programming',
         icon : 'mdi-language-csharp',
         value: 35,
       },
       {
-        title: 'C',
+        title: 'C programming',
         icon : 'mdi-language-C',
         value: 60,
       },
       {
-        title: 'C++',
+        title: 'programming',
         icon : 'mdi-language-cpp',
         value: 80,
       },
