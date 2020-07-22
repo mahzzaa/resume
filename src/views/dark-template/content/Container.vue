@@ -122,7 +122,7 @@ export default {
     prouds: [
       {
         icon  : 'mdi-chart-pie',
-        text  : 'Participate in Asia pacific Robocop 2018, ',
+        text  : 'Participate in Asia pacific Robocop 2018',
         location: 'Kish Island, Iran',
       },
       {

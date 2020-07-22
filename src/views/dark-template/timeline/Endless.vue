@@ -1,6 +1,6 @@
 <template>
    <v-card-actions class="justify-center">
-  <a href="https://github.com/mahzzaa/ehsunm"  class="link">Design by mahsa</a>
+  <a href="https://github.com/mahzzaa/ehsunm"  class="link">Designed by Mahsa</a>
 </v-card-actions>
 </template>
 
