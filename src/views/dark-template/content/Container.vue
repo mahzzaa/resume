@@ -122,17 +122,17 @@ export default {
   data      : () => ({
     prouds: [
       {
-        icon  : 'mdi-uil-robot',
+        icon  : 'mdi-chart-pie',
         text  : 'Participate in Asia pacific Robocop 2018, ',
         location: 'Kish Island, Iran',
       },
       {
-        icon  : 'mdi-library-music',
+        icon  : 'mdi-trophy',
         text  : '3rd place Robocop 2019 , small size soccer league',
         location: 'Sydney, Australia',
       },
       {
-        icon  : 'mdi-timer-sand',
+        icon  : 'mdi-folder-account',
         text  : 'Tap training academy associated with IQS UK certificate Matrices pedia training(mpt academy certificate)ICSD certificate',
         location: '11/march/2019',
       }
