@@ -76,8 +76,8 @@ export default {
 #dark-template {
   height: 100%;
   background: #71d4b3;
-  background: -webkit-linear-gradient(to left, #178f53, #71d4b3);
-  background: linear-gradient(to left, #178f53, #71d4b3);
+  background: -webkit-linear-gradient(to left, #6ccf9e, #7c2a95);
+  background: linear-gradient(to left, #6ccf9e, #7c2a95);
   background-size: cover;
 }
 </style>
