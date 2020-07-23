@@ -3,6 +3,7 @@ import helper from '@/plugins/helper'
 import App from '@/App.vue'
 import '@/plugins/vuetify'
 import '@/components'
+import './registerServiceWorker'
 
 Vue.config.productionTip = false
 Vue.use(helper)
