@@ -19,9 +19,7 @@
     class="mb-5"
   >
     <div class="title mb-3">
-      <h2>
-        {{ title }}
-      </h2>
+      <h2>{{ title }}</h2>
       <template v-if="$slots.actions">
         <v-spacer />
         <slot name="actions" />
@@ -34,7 +32,7 @@
 <script>
 export default {
   name      : 'ContentSection',
-  components: { },
+  components: {},
   props     : { title: { type: String, default: '' } },
 }
 </script>

@@ -19,14 +19,10 @@
               sm12
             >
               <v-layout wrap>
-                <v-flex
-                  md4
-                >
+                <v-flex md4>
                   <sidebar-container class="fill-height" />
                 </v-flex>
-                <v-flex
-                  md8
-                >
+                <v-flex md8>
                   <content-container class="fill-height" />
                 </v-flex>
               </v-layout>

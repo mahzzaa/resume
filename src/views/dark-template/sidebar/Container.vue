@@ -7,11 +7,10 @@
       <avatar />
       <div class="text-sm-center mb-4 mt-3">
         <h1>
-          Ehsun <span class="light-green--text text--lighten-3">Motamedi</span>
+          Ehsun
+          <span class="light-green--text text--lighten-3">Motamedi</span>
         </h1>
-        <span>
-          A full stack developer
-        </span>
+        <span>A full stack developer</span>
       </div>
 
       <sidebar-section :options="sections.info" />
@@ -20,9 +19,7 @@
         <template v-slot:item="{item}">
           <v-chip>
             <v-avatar>
-              <v-icon>
-                {{ item.icon }}
-              </v-icon>
+              <v-icon>{{ item.icon }}</v-icon>
             </v-avatar>
             {{ item.text }}
           </v-chip>
@@ -35,9 +32,7 @@
               wrap
               class="text-xs-center"
             >
-              <template
-                v-for="(item, i) in items"
-              >
+              <template v-for="(item, i) in items">
                 <v-flex
                   :key="i"
                   md3
@@ -193,7 +188,7 @@ export default {
 </script>
 
 <style scoped>
-.sidebar{
-    background: #d89a9a;
+.sidebar {
+  background: #d89a9a;
 }
 </style>

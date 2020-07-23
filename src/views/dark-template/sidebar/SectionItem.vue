@@ -4,32 +4,24 @@
       v-if="hasIcon"
       xs2
     >
-      <v-icon>
-        {{ item.icon }}
-      </v-icon>
+      <v-icon>{{ item.icon }}</v-icon>
     </v-flex>
     <v-flex
       :xs10="hasIcon"
       :xs12="!hasIcon"
     >
-      <div>
-        {{ item.name }}
-      </div>
+      <div>{{ item.name }}</div>
       <p>
         <a
           v-if="item.link"
           class="grey--text"
           :href="item.link"
           target="_blank"
-        >
-          {{ item.text }}
-        </a>
+        >{{ item.text }}</a>
         <span
           v-else
           class="grey--text"
-        >
-          {{ item.text }}
-        </span>
+        >{{ item.text }}</span>
       </p>
     </v-flex>
   </v-layout>
