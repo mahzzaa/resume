@@ -13,39 +13,39 @@ module.exports = {
   },
 
   pwa: {
-    name      : 'resume',
-    short_name: 'resume',
+    name      : 'Ehsun Motamedi',
+    short_name: 'Resume',
     themeColor: '#6ccf9e',
     iconPath  : {
-      favicon32     : 'img/app_icons/icon-32x32.png',
-      favicon16     : 'img/app_icons/icon-16x16.png',
-      appleTouchIcon: 'img/app-icons/icon-152x152.png',
-      msTileImage   : 'img/app-icons/icon-144x144.png',
+      favicon32     : 'img/favicon-32x32.png',
+      favicon16     : 'img/favicon-16x16.png',
+      appleTouchIcon: 'img/apple-touch-icon-152x152.png',
+      msTileImage   : 'img/apple-touch-icon-120x120.png',
     },
     manifestOptions: {
       background_color: '#7c2a95',
       icons           : [
         {
-          src  : 'img/app_icons/icon-192x192.png',
+          src  : 'img/android-chrome-192x192.png',
           sizes: '192x192',
           type : 'image/png',
         },
 
         {
-          src  : 'img/app_icons/icon-512x512.png',
+          src  : 'img/android-chrome-512x512.png',
           sizes: '512x512',
           type : 'image/png',
         },
 
         {
-          src    : 'img/app_icons/icon-192x192.png',
+          src    : 'img/android-chrome-192x192.png',
           sizes  : '192x192',
           type   : 'image/png',
           purpose: 'maskable',
         },
 
         {
-          src    : 'img/app_icons/icon-512x512.png',
+          src    : 'img/android-chrome-512x512.png',
           sizes  : '512x512',
           type   : 'image/png',
           purpose: 'maskable',

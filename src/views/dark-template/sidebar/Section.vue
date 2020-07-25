@@ -1,6 +1,9 @@
 <template>
-  <div class="mb-4">
-    <div class="title mb-3">
+  <div
+    v-if="options"
+    class="mb-4"
+  >
+    <div class=" mb-3">
       {{ options.title }}
     </div>
     <slot v-if="$slots.default" />
