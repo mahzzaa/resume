@@ -75,9 +75,9 @@ export default {
 <style scoped>
 #dark-template {
   height: 100%;
-  background: #71d4b3;
-  background: -webkit-linear-gradient(to left, #6ccf9e, #7c2a95);
-  background: linear-gradient(to left, #6ccf9e, #7c2a95);
+  background: #229753;
+  background: -webkit-linear-gradient(to left, rgb(62, 41, 107), #229753);
+  background: linear-gradient(to left,rgb(62, 41, 107), #229753);
   background-size: cover;
 }
 </style>
