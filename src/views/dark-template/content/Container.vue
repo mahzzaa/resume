@@ -1,6 +1,6 @@
 <template>
   <v-card
-    color="grey lighten-4"
+    color="grey lighten-2"
     light
   >
     <v-card-text>

@@ -5,7 +5,7 @@
       size="120"
     >
       <img
-        :src="publicPath('/img/avatar.svg')"
+        :src="publicPath('/img/Ehsun.jpg')"
         alt="Ehsan Motamedi"
       >
     </v-avatar>

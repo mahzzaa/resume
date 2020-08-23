@@ -1,23 +1,18 @@
 <template>
-   <v-card-actions class="justify-center">
-  <a href="https://github.com/mahzzaa/ehsunm"  class="link">Designed by Mahsa</a>
-</v-card-actions>
+  <v-card-actions class="justify-center">
+    <a
+      href="https://github.com/mahzzaa"
+      class="link"
+    ><h3>Designed by Mahsa</h3> </a>
+  </v-card-actions>
 </template>
 
 <script>
-import ContentSection from '@/views/dark-template/content/Section'
-import VueContentLoading, { VclCode } from 'vue-content-loading'
-import { debounce } from 'lodash'
 
 export default {
   name      : 'EndlessTimeline',
-  components: {
-    ContentSection, VueContentLoading, VclCode,
-  },
-  data: () => ({
-  
-    
-  })
+  components: { },
+  data      : () => ({}),
 }
 </script>
 
@@ -25,7 +20,7 @@ export default {
 .link{
   text-align: center;
   text-decoration: none;
-  color: aliceblue;
+  color: rgb(0, 0, 0);
   font-family: 'Red Rose', cursive;
 }
 </style>

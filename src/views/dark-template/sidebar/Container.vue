@@ -7,7 +7,7 @@
       <avatar />
       <div class="text-sm-center mb-4 mt-3">
         <h1>
-          Ehsun
+          Ehsan
           <span class="light-green--text text--lighten-3">Motamedi</span>
         </h1>
         <span>A full stack developer</span>
